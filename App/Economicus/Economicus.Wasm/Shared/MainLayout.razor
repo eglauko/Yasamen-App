@@ -1,0 +1,28 @@
+﻿@inherits LayoutComponentBase
+
+<AppLayout>
+    <TopStart>
+        <AppBrand></AppBrand>
+        <AppMenuButton>M</AppMenuButton>
+    </TopStart>
+    <Menu>
+        <AppNavMenu>
+            <AppNavItem Label="Home"/>
+            <AppNavItem Label="Counter" HRef="counter"/>
+            <AppNavItem Label="Fetch Data" HRef="fetchdata"/>
+        </AppNavMenu>
+    </Menu>
+    <Main>
+        @Body
+    </Main>
+    <Footer>
+        <Bar>
+            <Start>
+                Hello
+            </Start>
+            <End>
+                Footer
+            </End>
+        </Bar>
+    </Footer>
+</AppLayout>
