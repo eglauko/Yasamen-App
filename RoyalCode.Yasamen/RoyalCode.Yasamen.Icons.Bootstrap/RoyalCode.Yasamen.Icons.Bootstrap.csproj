@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<Import Project="..\version.targets" />
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="$(AspNetVer)" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\RoyalCode.Yasamen.Commons\RoyalCode.Yasamen.Commons.csproj" />
+		<ProjectReference Include="..\RoyalCode.Yasamen.Icons\RoyalCode.Yasamen.Icons.csproj" />
+	</ItemGroup>
+
+</Project>
